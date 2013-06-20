@@ -1,0 +1,51 @@
+Origin: Dataware
+Label: Dataware
+Suite: squeeze
+Codename: squeeze
+Version: : 6.1
+Date: Wed, 19 Jun 2013 14:56:16 UTC
+Architectures: amd64 i386
+Components: main
+Description: Dataware resource
+MD5Sum:
+ 745e56469b6a5132b346ba1f8f0a3904 10502 main/binary-amd64/Packages
+ ac8eb67f56963b62af05d9768becd55b 3999 main/binary-amd64/Packages.gz
+ ae7afb8e8464e5de4725108624aefdab 132 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ fadcd7899d1fb9f14531d9671a3b52a0 4673 main/binary-i386/Packages
+ 3a17252aeb21e990f1f20a0118dae3ef 1821 main/binary-i386/Packages.gz
+ 0358c0b766de6bead005d135138c2574 131 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ d81df80291a50110fd122582d7137aac 133 main/source/Release
+SHA1:
+ eb839b444edb8cc6605ab4a9234e8f3d62f511b8 10502 main/binary-amd64/Packages
+ d454f7ee2896aa4a630de4767d25f80525a05e8c 3999 main/binary-amd64/Packages.gz
+ cfd939e5857b5660d985782d2c5ebbb6bd402ef8 132 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ c4d3dbc7443576316b0ca3be78c4634366e74ed5 4673 main/binary-i386/Packages
+ 06f660390cb2d91c51182e737df8b0a4e6b1bf55 1821 main/binary-i386/Packages.gz
+ 8b2243c31dfa64b45590f2f0905075486350a140 131 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ a6a86f63f9771a720557f164d17aafa3d1dd3a65 133 main/source/Release
+SHA256:
+ 9b057707d6d83235b2af823e0bc940f52504dc4d665622264ccafc177793eac8 10502 main/binary-amd64/Packages
+ 5b85b322ae81f28a46e8b9cc38d75f10dfcf0f34c06096a1c1ce84bfc7b6f56e 3999 main/binary-amd64/Packages.gz
+ a81ba3f59144cc188b04a066b6cec76635fe05bf61df25dcb8bcc4a6b539a0a4 132 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ 51c3712257e87f1f463bcb463ab3b51ebbb022d80d2055e6d02e7e24da77859f 4673 main/binary-i386/Packages
+ 41e52945af7d2331195927ba9dcf29e733fb6d0dbcabec88a948c6340bd51adc 1821 main/binary-i386/Packages.gz
+ a36bea6ed1e93fb8dfc93c12df8990164d9db26faa487081d1685bf2d4d5341f 131 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ a4c14f089427b63d8a5414d8f1d548896ca40d28efabcd526889b04a23af9369 133 main/source/Release

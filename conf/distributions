@@ -1,0 +1,9 @@
+Origin: Dataware
+Label: Dataware
+Suite: squeeze
+Codename: squeeze
+Version:: 6.1
+Architectures: amd64 i386 source
+Components: main
+UDebComponents: main
+Description: Dataware resource

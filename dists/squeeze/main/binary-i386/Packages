@@ -1,0 +1,140 @@
+Package: dataware-bottle
+Source: bottle
+Version: 0.11.6-1
+Architecture: all
+Maintainer: Marcel Hellkamp <marc@gsites.de>
+Installed-Size: 320
+Depends: python (<< 2.7), python (>= 2.6), python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/b/bottle/dataware-bottle_0.11.6-1_all.deb
+Size: 76008
+SHA256: fed2b525e77675b66a4f852e32af174c8425f5dc92037f23812558d5c833d13d
+SHA1: 3d91b5b72d0f37ff3ea7a6afcc11ffdf4445e668
+MD5sum: befe9557438a4a6c8f1529c3284959e6
+Description: Fast and simple WSGI-framework for small web-applications.
+ .
+ Bottle is a fast and simple micro-framework for small web applications. It
+ offers request dispatching (Routes) with url parameter support, templates,
+ a built-in HTTP Server and adapters for many third party WSGI/HTTP-server and
+ template engines - all in a single file and with no dependencies other than the
+ Python Standard Library.
+ .
+ Homepage and documentation: http://bottlepy.org/
+ .
+ Copyright (c) 2012, Marcel Hellkamp.
+ License: MIT (see LICENSE for details)
+Python-Version: 2.6
+
+Package: dataware-sqlparse
+Source: sqlparse
+Version: 0.1.7-1
+Architecture: all
+Maintainer: Andi Albrecht <albrecht.andi@gmail.com>
+Installed-Size: 224
+Depends: python (<< 2.7), python (>= 2.6), python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/s/sqlparse/dataware-sqlparse_0.1.7-1_all.deb
+Size: 30918
+SHA256: 96c1639d93b1a928054c044ca6e9d0829884b7d5b083f50324e3076dacdfc785
+SHA1: 363f7382d797ef1c65940a6f8c066f2878380c72
+MD5sum: 013f5c912af3ae6cc2ba4432b50b7435
+Description: Non-validating SQL parser
+ .
+ ``sqlparse`` is a non-validating SQL parser module.
+ It provides support for parsing, splitting and formatting SQL statements.
+ .
+ Visit the `project page <https://github.com/andialbrecht/sqlparse>`_ for
+ additional information and documentation.
+ .
+ **Example Usage**
+ .
+ .
+ Splitting SQL statements::
+ .
+    >>> import sqlparse
+    >>> sqlparse.split('select * from foo; select * from bar;')
+    [u'select * from foo; ', u'select * from bar;']
+ .
+ .
+ Formatting statemtents::
+ .
+    >>> sql = 'select * from foo where id in (select id from bar);'
+Python-Version: 2.6
+
+Package: dataware-wsgiref
+Source: wsgiref
+Version: 0.1.2-1
+Architecture: all
+Maintainer: Phillip J. Eby <web-sig@python.org>
+Installed-Size: 132
+Depends: python, python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/w/wsgiref/dataware-wsgiref_0.1.2-1_all.deb
+Size: 16886
+SHA256: c6780de91e951f335137027ddbf7ad217a28af8306d8acd61cd1bc690e7df73d
+SHA1: 8e730c9b72ddf8804ced94e2786a6a43810766cc
+MD5sum: 7f313563454e60009aba76f908a31eac
+Description: WSGI (PEP 333) Reference Library
+ This is a standalone release of the ``wsgiref`` library to be included in
+ Python 2.5.  For the standalone version's documentation, see:
+ .
+ HTML
+   http://peak.telecommunity.com/wsgiref_docs/
+ .
+ PDF
+   http://peak.telecommunity.com/wsgiref.pdf
+Python-Version: 2.5, 2.6
+
+Package: db-test-mysql
+Source: db-common-example
+Version: 2.0
+Architecture: all
+Maintainer: sean finney <seanius@debian.org>
+Installed-Size: 92
+Depends: dbconfig-common
+Recommends: mysql-client
+Suggests: mysql-server
+Priority: optional
+Section: misc
+Filename: pool/main/d/db-common-example/db-test-mysql_2.0_all.deb
+Size: 3244
+SHA256: b7c96a58a9707f1a4a1ad8b49e932ffaeb332a9caf58ffa536cfcc77bcfdf74a
+SHA1: d7bbeeca6486e5dc11de767e42a269a2c5442eee
+MD5sum: a5d01798c035c3b871eae54d669a7bf1
+Description: a package to test dbconfig-common (mysql version)
+ this is a package to test the dbconfig-common package.
+ .
+ this version should work with mysql database servers.
+
+Package: python-bottle
+Source: bottle
+Version: 0.11.6-1
+Architecture: all
+Maintainer: Marcel Hellkamp <marc@gsites.de>
+Installed-Size: 324
+Depends: python (<< 2.7), python (>= 2.6), python-support (>= 0.90.0)
+Provides: python2.6-bottle
+Priority: optional
+Section: python
+Filename: pool/main/b/bottle/python-bottle_0.11.6-1_all.deb
+Size: 76240
+SHA256: c6a2cb4292496f088298d3a81422efc851ee5a8d5b10bda284ca35e3ed4e5f68
+SHA1: 4f32f8ed46b28102bbffd433f02667d2a3043355
+MD5sum: 86c3e890f8009998f1cdc4955e586118
+Description: Fast and simple WSGI-framework for small web-applications.
+ .
+ Bottle is a fast and simple micro-framework for small web applications. It
+ offers request dispatching (Routes) with url parameter support, templates,
+ a built-in HTTP Server and adapters for many third party WSGI/HTTP-server and
+ template engines - all in a single file and with no dependencies other than the
+ Python Standard Library.
+ .
+ Homepage and documentation: http://bottlepy.org/
+ .
+ Copyright (c) 2012, Marcel Hellkamp.
+ License: MIT (see LICENSE for details)
+Python-Version: 2.6
+
