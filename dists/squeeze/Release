@@ -3,13 +3,13 @@ Label: Dataware
 Suite: squeeze
 Codename: squeeze
 Version: : 6.1
-Date: Mon, 24 Jun 2013 09:15:23 UTC
+Date: Mon, 24 Jun 2013 10:27:08 UTC
 Architectures: amd64 i386
 Components: main
 Description: Dataware resource
 MD5Sum:
- 1de4673f90a3c0cd32c81dd684060867 10502 main/binary-amd64/Packages
- c4239905dfd5ba3af462bdc8190056f9 4000 main/binary-amd64/Packages.gz
+ 633173c4725a02ae97dd7f0dfe68e41e 10502 main/binary-amd64/Packages
+ 833c19722e25c773293d61aba7583e92 4003 main/binary-amd64/Packages.gz
  ae7afb8e8464e5de4725108624aefdab 132 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
@@ -22,8 +22,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  d81df80291a50110fd122582d7137aac 133 main/source/Release
 SHA1:
- 850ea95d4fd4548c53c996a6bcf2f9b4f57cd449 10502 main/binary-amd64/Packages
- 9a4b3fa6f80a9a568b3972b175af8766c2dd5f41 4000 main/binary-amd64/Packages.gz
+ ef6cd7adfe46932432f9c61f3b3c4bb9588fe882 10502 main/binary-amd64/Packages
+ 19489d236dab12bab7af1314b9691bae94fe47e4 4003 main/binary-amd64/Packages.gz
  cfd939e5857b5660d985782d2c5ebbb6bd402ef8 132 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
@@ -36,8 +36,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  a6a86f63f9771a720557f164d17aafa3d1dd3a65 133 main/source/Release
 SHA256:
- 71b1663096af3fd01f37f98f96ade81085a45385bb047ece6c92bc7c7ea46198 10502 main/binary-amd64/Packages
- 26380d9748d2d3bce82f745a256964f1dc6e0f84069848dfa7c3a7b18b937dfe 4000 main/binary-amd64/Packages.gz
+ 840daec5a73d818e3f480923554b1531ca286b6d1cfe4c944cfed9b27baf668b 10502 main/binary-amd64/Packages
+ 96dc6de4b97a6f530261208349ec328d3dd011c7df9bfe5a7a42d6d94888f5df 4003 main/binary-amd64/Packages.gz
  a81ba3f59144cc188b04a066b6cec76635fe05bf61df25dcb8bcc4a6b539a0a4 132 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz

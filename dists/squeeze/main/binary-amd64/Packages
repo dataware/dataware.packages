@@ -109,10 +109,10 @@ Depends: mysql-server, dbconfig-common, dataware-bottle, dataware-mysql-python, 
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-resource/dataware-resource_0.1-1_amd64.deb
-Size: 2125910
-SHA256: 80e3b535f3f7d9a319abc9a585087a542deb9ec4176c55c1587fd927a3a07c72
-SHA1: 8a75f027a1eb56ac52166ff4b25ea6198f71fd19
-MD5sum: 11ae9076770c370c804d00e9adf1ee11
+Size: 2125922
+SHA256: 8ffded5e69661864c87e9169e47d05b5ceb323b9058839ffcea6d90d63402eec
+SHA1: da34969a40b52e6ca7355f48c474c611845fd8f5
+MD5sum: 18b34e701b46fcbba13f75a57d5ba15a
 Description: Dataware resource component
 Python-Version: 2.5, 2.6
 
