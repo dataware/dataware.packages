@@ -104,15 +104,15 @@ Package: dataware-resource
 Version: 0.1-1
 Architecture: amd64
 Maintainer: Tom Lodge <tlodge@gmail.com>
-Installed-Size: 2788
+Installed-Size: 2816
 Depends: mysql-server, dbconfig-common, dataware-bottle, dataware-mysql-python, dataware-sqlalchemy, dataware-wsgiref, dataware-gevent, dataware-sqlparse, debconf (>= 0.5) | debconf-2.0, python, python-support (>= 0.90.0)
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-resource/dataware-resource_0.1-1_amd64.deb
-Size: 1075000
-SHA256: 7e4af7b71bbb08015d4b5ca9f8c44458991ab86d9c75dcbf136e7fddafa99444
-SHA1: d108428640e0ee1d002559d59fb4aedae0e0e8f2
-MD5sum: e620153ed3220873a564d2054e21413c
+Size: 2125910
+SHA256: 80e3b535f3f7d9a319abc9a585087a542deb9ec4176c55c1587fd927a3a07c72
+SHA1: 8a75f027a1eb56ac52166ff4b25ea6198f71fd19
+MD5sum: 11ae9076770c370c804d00e9adf1ee11
 Description: Dataware resource component
 Python-Version: 2.5, 2.6
 
