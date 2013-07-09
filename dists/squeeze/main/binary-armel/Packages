@@ -1,0 +1,254 @@
+Package: dataware-bottle
+Source: bottle
+Version: 0.11.6-1
+Architecture: armel
+Maintainer: Marcel Hellkamp <marc@gsites.de>
+Installed-Size: 320
+Depends: python (<< 2.7), python (>= 2.6), python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/b/bottle/dataware-bottle_0.11.6-1_armel.deb
+Size: 76034
+SHA256: 1ea9e4a4972c98a74584c0d4959a2cbb41684a3c75f5ab7645de352cc90f5e41
+SHA1: dc40285a9290b923807ab6c90e79133ab6f44287
+MD5sum: c62c3903d7783bd87862c17def904fcf
+Description: Fast and simple WSGI-framework for small web-applications.
+ .
+ Bottle is a fast and simple micro-framework for small web applications. It
+ offers request dispatching (Routes) with url parameter support, templates,
+ a built-in HTTP Server and adapters for many third party WSGI/HTTP-server and
+ template engines - all in a single file and with no dependencies other than the
+ Python Standard Library.
+ .
+ Homepage and documentation: http://bottlepy.org/
+ .
+ Copyright (c) 2012, Marcel Hellkamp.
+ License: MIT (see LICENSE for details)
+Python-Version: 2.6
+
+Package: dataware-gevent
+Source: gevent
+Version: 0.13.8-1
+Architecture: armel
+Maintainer: Denis Bilenko <denis.bilenko@gmail.com>
+Installed-Size: 796
+Depends: python (<< 2.7), python (>= 2.5), python-support (>= 0.90.0), libc6 (>= 2.4), libevent-1.4-2 (>= 1.4.13-stable)
+Priority: optional
+Section: python
+Filename: pool/main/g/gevent/dataware-gevent_0.13.8-1_armel.deb
+Size: 212762
+SHA256: b39adca2a801bbef54bcd2b0f3ce856c2b4c9eafe3ab4353f485caa34bd7298b
+SHA1: 4b4c2a796915f4fcc61ab375f0f7d0c943131f89
+MD5sum: 12bc05127738f4f770de25294afddcdb
+Description: Python network library that uses greenlet and libevent for e
+ gevent_
+ =======
+ .
+ .. attention::
+ .
+   New_ version of gevent uses libev_ and c-ares rather than libevent and includes all the dependencies in the release tarball.
+ .
+   You can download the 1.0 beta release from `google code`_. Please give it a try.
+ .
+ .. _libev: http://blog.gevent.org/2011/04/28/libev-and-libevent/
+ .. _google code: http://code.google.com/p/gevent/downloads/
+ .. _New: https://bitbucket.org/denis/gevent/src/tip/changelog.rst#cl-7
+ .
+ gevent_ is a Python networking library that uses greenlet_ to provide synchronous API on top of libevent_ event loop.
+ .
+ Features include:
+ .
+ * Fast event loop based on libevent_.
+ * Lightweight execution units based on greenlet_.
+ * Familiar API that re-uses concepts from the Python standard library.
+Python-Version: 2.5, 2.6
+
+Package: dataware-greenlet
+Source: greenlet
+Version: 0.4.1-1
+Architecture: armel
+Maintainer: Ralf Schmitt <ralf@systemexit.de>
+Installed-Size: 144
+Depends: python (<< 2.7), python (>= 2.5), python-support (>= 0.90.0), libc6 (>= 2.4)
+Priority: optional
+Section: python
+Filename: pool/main/g/greenlet/dataware-greenlet_0.4.1-1_armel.deb
+Size: 17472
+SHA256: 99ce98875518ba4c4b269f6231960b5fdea31b40832658c9cd42275c5a9e813b
+SHA1: 57cba2b0a332211902789dd254e6da907b220d64
+MD5sum: 536fa099d1c35637596dfcc9b36064bf
+Description: Lightweight in-process concurrent programming
+ The greenlet package is a spin-off of Stackless, a version of CPython
+ that supports micro-threads called "tasklets". Tasklets run
+ pseudo-concurrently (typically in a single or a few OS-level threads)
+ and are synchronized with data exchanges on "channels".
+ .
+ A "greenlet", on the other hand, is a still more primitive notion of
+ micro-thread with no implicit scheduling; coroutines, in other
+ words. This is useful when you want to control exactly when your code
+ runs. You can build custom scheduled micro-threads on top of greenlet;
+ however, it seems that greenlets are useful on their own as a way to
+ make advanced control flow structures. For example, we can recreate
+ generators; the difference with Python's own generators is that our
+ generators can call nested functions and the nested functions can
+ yield values too. Additionally, you don't need a "yield" keyword. See
+ the example in tests/test_generator.py.
+ .
+ Greenlets are provided as a C extension module for the regular
+ unmodified interpreter.
+ .
+ Greenlets are lightweight coroutines for in-process concurrent
+Python-Version: 2.5, 2.6
+
+Package: dataware-mysql-python
+Source: mysql-python
+Version: 1.2.4-1
+Architecture: armel
+Maintainer: Andy Dustman <farcepest@gmail.com>
+Installed-Size: 280
+Depends: python (<< 2.7), python (>= 2.5), python-support (>= 0.90.0), libc6 (>= 2.4), libmysqlclient16 (>= 5.1.21-1)
+Priority: optional
+Section: python
+Filename: pool/main/m/mysql-python/dataware-mysql-python_1.2.4-1_armel.deb
+Size: 60172
+SHA256: 39735b002e6cd8aeb4ce766549218276ffc611808f8f9b52b4c64682a8ec4725
+SHA1: c6f112b23cc241abec6ec5d8078893ea4f2d1e4e
+MD5sum: da7e113cda6017a598abcd2f268b541c
+Description: Python interface to MySQL
+ .
+ =========================
+ Python interface to MySQL
+ =========================
+ .
+ MySQLdb is an interface to the popular MySQL_ database server for
+ Python.  The design goals are:
+ .
+ - Compliance with Python database API version 2.0 [PEP-0249]_
+ - Thread-safety
+ - Thread-friendliness (threads will not block each other)
+ .
+ MySQL-3.23 through 5.5 and Python-2.4 through 2.7 are currently
+ supported. Python-3.0 will be supported in a future release.
+ PyPy is supported.
+ .
+ MySQLdb is `Free Software`_.
+ .
+ .. _MySQL: http://www.mysql.com/
+ .. _`Free Software`: http://www.gnu.org/
+Python-Version: 2.5, 2.6
+
+Package: dataware-resource
+Version: 0.1-1
+Architecture: armel
+Maintainer: Tom Lodge <tlodge@gmail.com>
+Installed-Size: 2768
+Depends: mysql-server, dbconfig-common, dataware-bottle, dataware-mysql-python, dataware-sqlalchemy, dataware-wsgiref, dataware-greenlet, dataware-gevent, dataware-sqlparse, debconf (>= 0.5) | debconf-2.0, python, python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/d/dataware-resource/dataware-resource_0.1-1_armel.deb
+Size: 2121376
+SHA256: 53c38924c1e3a54246cd8ddebce9dd73dc1e2d25c3b7d39c33e41a370acfb7ff
+SHA1: c22ef289ebf567e96c92d11c529eb31b58656725
+MD5sum: 6cb29009f9bbdf98a961b4c38d32b149
+Description: Dataware resource component
+Python-Version: 2.5, 2.6
+
+Package: dataware-sqlalchemy
+Source: sqlalchemy
+Version: 0.8.2-1
+Architecture: armel
+Maintainer: Mike Bayer <mike_mp@zzzcomputing.com>
+Installed-Size: 3632
+Depends: python (<< 2.7), python (>= 2.5), python-support (>= 0.90.0), libc6 (>= 2.4)
+Priority: optional
+Section: python
+Filename: pool/main/s/sqlalchemy/dataware-sqlalchemy_0.8.2-1_armel.deb
+Size: 712422
+SHA256: ef131c77c8929d5cdd61e6d13fe5986f84a554c77ecefae849a5f38cff41cbdd
+SHA1: 914c6a2c752a339abff913755878709f83e8825d
+MD5sum: 97a90e39e808336f5067b576c61e037a
+Description: Database Abstraction Library
+ SQLAlchemy
+ ==========
+ .
+ The Python SQL Toolkit and Object Relational Mapper
+ .
+ Introduction
+ -------------
+ .
+ SQLAlchemy is the Python SQL toolkit and Object Relational Mapper
+ that gives application developers the full power and
+ flexibility of SQL. SQLAlchemy provides a full suite
+ of well known enterprise-level persistence patterns,
+ designed for efficient and high-performing database
+ access, adapted into a simple and Pythonic domain
+ language.
+ .
+ Major SQLAlchemy features include:
+ .
+ * An industrial strength ORM, built
+   from the core on the identity map, unit of work,
+Python-Version: 2.5, 2.6
+
+Package: dataware-sqlparse
+Source: sqlparse
+Version: 0.1.8-1
+Architecture: armel
+Maintainer: Andi Albrecht <albrecht.andi@gmail.com>
+Installed-Size: 224
+Depends: python (<< 2.7), python (>= 2.6), python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/s/sqlparse/dataware-sqlparse_0.1.8-1_armel.deb
+Size: 31404
+SHA256: 9d17eff719e9a39c3f6c478df61bccdfe23d50da80c165e52c818c979123953a
+SHA1: aa86e4230802d2f026992b6bb9f1bf1ebeb65d47
+MD5sum: d3ad2b668c4d6758ec21fbae79a2a46b
+Description: Non-validating SQL parser
+ .
+ ``sqlparse`` is a non-validating SQL parser module.
+ It provides support for parsing, splitting and formatting SQL statements.
+ .
+ Visit the `project page <https://github.com/andialbrecht/sqlparse>`_ for
+ additional information and documentation.
+ .
+ **Example Usage**
+ .
+ .
+ Splitting SQL statements::
+ .
+    >>> import sqlparse
+    >>> sqlparse.split('select * from foo; select * from bar;')
+    [u'select * from foo; ', u'select * from bar;']
+ .
+ .
+ Formatting statemtents::
+ .
+    >>> sql = 'select * from foo where id in (select id from bar);'
+Python-Version: 2.6
+
+Package: dataware-wsgiref
+Source: wsgiref
+Version: 0.1.2-1
+Architecture: armel
+Maintainer: Phillip J. Eby <web-sig@python.org>
+Installed-Size: 132
+Depends: python, python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/w/wsgiref/dataware-wsgiref_0.1.2-1_armel.deb
+Size: 16948
+SHA256: 5e22bc72bdecd0ab8a2980834ac4b8e410988c947044ebc402d7381277257d51
+SHA1: cd06bb4503e5e5ca3197cf507132227a6ccab190
+MD5sum: 6a58da8a1367acd9bb3cae2dffdcd628
+Description: WSGI (PEP 333) Reference Library
+ This is a standalone release of the ``wsgiref`` library to be included in
+ Python 2.5.  For the standalone version's documentation, see:
+ .
+ HTML
+   http://peak.telecommunity.com/wsgiref_docs/
+ .
+ PDF
+   http://peak.telecommunity.com/wsgiref.pdf
+Python-Version: 2.5, 2.6
+
