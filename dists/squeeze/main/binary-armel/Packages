@@ -26,6 +26,91 @@ Description: Fast and simple WSGI-framework for small web-applications.
  License: MIT (see LICENSE for details)
 Python-Version: 2.6
 
+Package: dataware-catalog
+Version: 0.1-1
+Architecture: armel
+Maintainer: Tom Lodge <tlodge@gmail.com>
+Installed-Size: 220
+Depends: mysql-server, dbconfig-common, dataware-mysql-python, dataware-sqlalchemy, dataware-wsgiref, dataware-greenlet, dataware-gevent, dataware-sqlparse, debconf (>= 0.5) | debconf-2.0, python, python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/d/dataware-catalog/dataware-catalog_0.1-1_armel.deb
+Size: 1080830
+SHA256: 30dcad0f68e119a209c32f9310de19ff48e5d8b12cd641d2922be65d6a8851cd
+SHA1: 8ec2d7b47c57ddfc4ec1aea013e22c132c5ce761
+MD5sum: 5098a4a496a243f803fe91e4f49abb95
+Description: Dataware resource component
+Python-Version: 2.5, 2.6
+
+Package: dataware-client-skeleton
+Version: 0.1-1
+Architecture: armel
+Maintainer: Tom Lodge <tlodge@gmail.com>
+Installed-Size: 152
+Depends: mysql-server, dbconfig-common, dataware-flask, dataware-mysql-python, dataware-sqlalchemy, dataware-wsgiref, dataware-greenlet, dataware-gevent, dataware-sqlparse, debconf (>= 0.5) | debconf-2.0, python, python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/d/dataware-client-skeleton/dataware-client-skeleton_0.1-1_armel.deb
+Size: 163346
+SHA256: dfd493d5ffd4606b8431fb0c783d5c6b74dfdd654bb5a14dd67544f2ba07d359
+SHA1: 6c9e06e492e5581e389686faa0bfa80dee6b56cb
+MD5sum: e39cbd8e5f25d6e96a6e94dad3a5b66b
+Description: Dataware skeleton client
+Python-Version: 2.5, 2.6
+
+Package: dataware-energy
+Version: 0.1-1
+Architecture: armel
+Maintainer: Tom Lodge <tlodge@gmail.com>
+Installed-Size: 236
+Depends: mysql-server, dbconfig-common, openjdk-6-jre, librxtx-java, libmysql-java, dataware-bottle, dataware-mysql-python, dataware-sqlalchemy, dataware-wsgiref, dataware-greenlet, dataware-gevent, dataware-sqlparse, debconf (>= 0.5) | debconf-2.0, python, python-support (>= 0.90.0)
+Priority: optional
+Section: python
+Filename: pool/main/d/dataware-energy/dataware-energy_0.1-1_armel.deb
+Size: 848982
+SHA256: 261fb65f4ba7c4db8af01e568c411a01711dcaa95cc47552c656518a09b6772e
+SHA1: 65fccb350321ee95171cb1883a6849aeb80e90de
+MD5sum: 66b24d2d268752c54a424cac1b723cf1
+Description: Dataware resource component
+Python-Version: 2.5, 2.6
+
+Package: dataware-flask
+Source: flask
+Version: 0.10.1-1
+Architecture: all
+Maintainer: Armin Ronacher <armin.ronacher@active-4.com>
+Installed-Size: 844
+Depends: python, python-support (>= 0.90.0), python-jinja2 (>= 2.4) | python3-jinja2 (>= 2.4)
+Priority: optional
+Section: python
+Filename: pool/main/f/flask/dataware-flask_0.10.1-1_all.deb
+Size: 101416
+SHA256: 8ec95e0d42c842a403d3fd9d9a067a317321ac1f0baf117014ec27b4366da7af
+SHA1: 22dd5468147fd609efae01fddc7b7e98a082f862
+MD5sum: c9b13d1f0aa1eceec83822fa3eb16579
+Description: A microframework based on Werkzeug, Jinja2 and good intentio
+ .
+ Flask
+ -----
+ .
+ Flask is a microframework for Python based on Werkzeug, Jinja 2 and good
+ intentions. And before you ask: It's BSD licensed!
+ .
+ Flask is Fun
+ ````````````
+ .
+ .. code:: python
+ .
+     from flask import Flask
+     app = Flask(__name__)
+ .
+     @app.route("/")
+     def hello():
+         return "Hello World!"
+ .
+     if __name__ == "__main__":
+Python-Version: 2.5, 2.6
+
 Package: dataware-gevent
 Source: gevent
 Version: 0.13.8-1

@@ -26,6 +26,43 @@ Description: Fast and simple WSGI-framework for small web-applications.
  License: MIT (see LICENSE for details)
 Python-Version: 2.6
 
+Package: dataware-flask
+Source: flask
+Version: 0.10.1-1
+Architecture: all
+Maintainer: Armin Ronacher <armin.ronacher@active-4.com>
+Installed-Size: 844
+Depends: python, python-support (>= 0.90.0), python-jinja2 (>= 2.4) | python3-jinja2 (>= 2.4)
+Priority: optional
+Section: python
+Filename: pool/main/f/flask/dataware-flask_0.10.1-1_all.deb
+Size: 101416
+SHA256: 8ec95e0d42c842a403d3fd9d9a067a317321ac1f0baf117014ec27b4366da7af
+SHA1: 22dd5468147fd609efae01fddc7b7e98a082f862
+MD5sum: c9b13d1f0aa1eceec83822fa3eb16579
+Description: A microframework based on Werkzeug, Jinja2 and good intentio
+ .
+ Flask
+ -----
+ .
+ Flask is a microframework for Python based on Werkzeug, Jinja 2 and good
+ intentions. And before you ask: It's BSD licensed!
+ .
+ Flask is Fun
+ ````````````
+ .
+ .. code:: python
+ .
+     from flask import Flask
+     app = Flask(__name__)
+ .
+     @app.route("/")
+     def hello():
+         return "Hello World!"
+ .
+     if __name__ == "__main__":
+Python-Version: 2.5, 2.6
+
 Package: dataware-gevent
 Source: gevent
 Version: 0.13.8-1
