@@ -30,15 +30,15 @@ Package: dataware-catalog
 Version: 0.1-1
 Architecture: armel
 Maintainer: Tom Lodge <tlodge@gmail.com>
-Installed-Size: 220
+Installed-Size: 236
 Depends: mysql-server, dbconfig-common, dataware-mysql-python, dataware-sqlalchemy, dataware-wsgiref, dataware-greenlet, dataware-gevent, dataware-sqlparse, debconf (>= 0.5) | debconf-2.0, python, python-support (>= 0.90.0)
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-catalog/dataware-catalog_0.1-1_armel.deb
-Size: 1080836
-SHA256: e6f2421145760bca23a944ea7e343f0af8b47191d02e14e0ff5868852ba2ec01
-SHA1: c5b78a2d02cbd86ad7c6ef0d83de2b8b1389d26b
-MD5sum: 23db5ad96e80f341cc3e60e1dc91193e
+Size: 1081206
+SHA256: baa4b17d00e134c5d3a27d7dd2ddddb5f84e894b6e5fbc4c667aae6a3f499982
+SHA1: 13aaefc304bb69b79b968f262f3afface6e16d4c
+MD5sum: 9ecc8111b5d2a3b7a3a6b1f006d1bc26
 Description: Dataware resource component
 Python-Version: 2.5, 2.6
 
@@ -62,15 +62,15 @@ Package: dataware-energy
 Version: 0.1-1
 Architecture: armel
 Maintainer: Tom Lodge <tlodge@gmail.com>
-Installed-Size: 236
+Installed-Size: 252
 Depends: mysql-server, dbconfig-common, openjdk-6-jre, librxtx-java, libmysql-java, dataware-bottle, dataware-mysql-python, dataware-sqlalchemy, dataware-wsgiref, dataware-greenlet, dataware-gevent, dataware-sqlparse, debconf (>= 0.5) | debconf-2.0, python, python-support (>= 0.90.0)
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-energy/dataware-energy_0.1-1_armel.deb
-Size: 2947298
-SHA256: afe55e6c0b67f8444905ed7b6076157ec768abd892889113c77a757031821b2a
-SHA1: 051c6d3f79a2ef4e3474cb58eb5367ede9bd0482
-MD5sum: dc2f3c01bc411dbb50e4a06938fd07ca
+Size: 2948414
+SHA256: 04e04baea6b9f3ddee55eb841e84a17f8dccb9d339be78e1b89ef9e198aade79
+SHA1: 6495c60bc77663b484cff8d1e84a97f9ab808576
+MD5sum: 1d3d512e9c919b61b5bda5704ad6dfc2
 Description: Dataware resource component
 Python-Version: 2.5, 2.6
 
