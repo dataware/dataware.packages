@@ -30,15 +30,15 @@ Package: dataware-catalog
 Version: 0.1-1
 Architecture: armel
 Maintainer: Tom Lodge <tlodge@gmail.com>
-Installed-Size: 236
+Installed-Size: 232
 Depends: mysql-server, dbconfig-common, dataware-mysql-python, dataware-sqlalchemy, dataware-wsgiref, dataware-greenlet, dataware-gevent, dataware-sqlparse, debconf (>= 0.5) | debconf-2.0, python, python-support (>= 0.90.0)
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-catalog/dataware-catalog_0.1-1_armel.deb
-Size: 1081206
-SHA256: baa4b17d00e134c5d3a27d7dd2ddddb5f84e894b6e5fbc4c667aae6a3f499982
-SHA1: 13aaefc304bb69b79b968f262f3afface6e16d4c
-MD5sum: 9ecc8111b5d2a3b7a3a6b1f006d1bc26
+Size: 1075608
+SHA256: c8490cf38a807f5df83a5f79538b122aa6309078e0abfc7c54cbe1d808ee0aa3
+SHA1: ae387ec88d7354169b3c48e8e00dae5ed02be83b
+MD5sum: 37a999f8391b60ece70dcb930e10ae7e
 Description: Dataware resource component
 Python-Version: 2.5, 2.6
 
@@ -67,10 +67,10 @@ Depends: mysql-server, dbconfig-common, openjdk-6-jre, librxtx-java, libmysql-ja
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-energy/dataware-energy_0.1-1_armel.deb
-Size: 3339532
-SHA256: 00b7ea77e125c513343502bb29abb9048836d58b7695d87ffecebf8d38a7ff38
-SHA1: 8f4143b802b9e682fab39422687e585259bc4576
-MD5sum: 0e4beccdf57d6f354f7f6c12061e5a6d
+Size: 3339560
+SHA256: 55d0fc7388707baa5ddca6ddee99df41eacfbf103c6db5ee38c0c26fca6bc3d8
+SHA1: 967654785e09619ec7fc76ec9dd545349ed4f7e4
+MD5sum: 8d2847246c15ffb34b92a59e5ee473a3
 Description: Dataware resource component
 Python-Version: 2.5, 2.6
 
