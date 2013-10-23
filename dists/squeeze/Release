@@ -3,7 +3,7 @@ Label: Dataware
 Suite: squeeze
 Codename: squeeze
 Version: : 6.1
-Date: Wed, 23 Oct 2013 11:15:49 UTC
+Date: Wed, 23 Oct 2013 13:49:26 UTC
 Architectures: armel amd64 i386
 Components: main
 Description: Dataware resource
