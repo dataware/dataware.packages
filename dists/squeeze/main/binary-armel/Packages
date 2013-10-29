@@ -62,15 +62,15 @@ Package: dataware-energy
 Version: 0.1-1
 Architecture: armel
 Maintainer: Tom Lodge <tlodge@gmail.com>
-Installed-Size: 252
+Installed-Size: 256
 Depends: mysql-server, dbconfig-common, openjdk-6-jre, librxtx-java, libmysql-java, dataware-bottle, dataware-mysql-python, dataware-sqlalchemy, dataware-wsgiref, dataware-greenlet, dataware-gevent, dataware-sqlparse, debconf (>= 0.5) | debconf-2.0, python, python-support (>= 0.90.0)
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-energy/dataware-energy_0.1-1_armel.deb
-Size: 3339486
-SHA256: b6b26b59922e29233f74dfc412c65a18a65f8df64bf68e97546e2659c567f6e5
-SHA1: c189c37c1599b5903f2da6c72c41dcfd0e77eb04
-MD5sum: d72f2f87d7d526238fa710ac81f2869a
+Size: 3340764
+SHA256: 87baf6e2fbe2fd5140f1a7ac9105c5f325b04b1fc12569247aca8ca603fd9342
+SHA1: 707a7921a405e917e910d25d75f5a78294fa3160
+MD5sum: c18bc955a9f3dba7801c6c4bf16b63ae
 Description: Dataware resource component
 Python-Version: 2.5, 2.6
 
