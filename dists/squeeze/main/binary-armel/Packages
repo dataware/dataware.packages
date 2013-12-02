@@ -26,6 +26,20 @@ Description: Fast and simple WSGI-framework for small web-applications.
  License: MIT (see LICENSE for details)
 Python-Version: 2.6
 
+Package: dataware-btsync
+Version: 0.1-1
+Architecture: armel
+Maintainer: Tom Lodge <tlodge@gmail.com>
+Installed-Size: 76
+Priority: optional
+Section: network
+Filename: pool/main/d/dataware-btsync/dataware-btsync_0.1-1_armel.deb
+Size: 1088192
+SHA256: 5ba8a64ede7c25f55b1861b779cee75f66191a0142ec8ffac0e70c0eeff77fd2
+SHA1: d6da6812cecfc8c4f1d125b5ccf301eb5e21a8e9
+MD5sum: 8cff8dc40b2b1d6e23829970e44ecba3
+Description: Bittorrent sync daemon
+
 Package: dataware-catalog
 Version: 0.1-1
 Architecture: armel
