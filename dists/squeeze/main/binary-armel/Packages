@@ -81,10 +81,10 @@ Depends: mysql-server, dbconfig-common, openjdk-6-jre, librxtx-java, libmysql-ja
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-energy/dataware-energy_0.1-1_armel.deb
-Size: 3344098
-SHA256: 919ebc198eab7dc70824a0233dc7774fc8b964cb4006e1c4236c746a4eb34abe
-SHA1: 2fe4777e044e70d7f5ed54e2ef2be60f9d5745c1
-MD5sum: c96df080ec822c22e848906240d0306f
+Size: 3344188
+SHA256: bf2aa00ba30f766f7c3f96450a5aa16ef90bbfcc4682c62366c9c90066891686
+SHA1: 83f7f3bab0df7648fe8054a265194963864b5b0a
+MD5sum: bcfc2374739fa28a3f54138d863455f1
 Description: Dataware resource component
 
 Package: dataware-flask
