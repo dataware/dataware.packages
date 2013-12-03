@@ -49,10 +49,10 @@ Depends: mysql-server, dbconfig-common, dataware-mysql-python, dataware-sqlalche
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-catalog/dataware-catalog_0.1-1_armel.deb
-Size: 1075318
-SHA256: 9e7459bf9b707c5eba1101a7df6c56c20e5294c92d8fd5356993eeddafe8f6ea
-SHA1: d4f0b18e6523cb9a313b59ce77a9b5c018b33ed6
-MD5sum: e24ef9df7359500191d4e7c64e045342
+Size: 1075330
+SHA256: cea0236b9e8890fc60c3f1a98e0be362a7c405757f375b914d804a92ae3c74de
+SHA1: 2193eb9db55e1c1c2ff3216681b1332f69f6987a
+MD5sum: 7742616e87b8693ae1f31b0e15d3a608
 Description: Dataware resource component
 Python-Version: 2.5, 2.6
 
@@ -81,10 +81,10 @@ Depends: mysql-server, dbconfig-common, openjdk-6-jre, librxtx-java, libmysql-ja
 Priority: optional
 Section: python
 Filename: pool/main/d/dataware-energy/dataware-energy_0.1-1_armel.deb
-Size: 3344188
-SHA256: bf2aa00ba30f766f7c3f96450a5aa16ef90bbfcc4682c62366c9c90066891686
-SHA1: 83f7f3bab0df7648fe8054a265194963864b5b0a
-MD5sum: bcfc2374739fa28a3f54138d863455f1
+Size: 3344170
+SHA256: 9114266fbd026a32425c3cdc0db888219b6de45d936cb7045476793fad53d12e
+SHA1: 58df8444b062ad90b20be29fd2f0ca9f5c915de0
+MD5sum: 6dfe06ef47e590666681072603102494
 Description: Dataware resource component
 
 Package: dataware-flask
