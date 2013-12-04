@@ -3,13 +3,13 @@ Label: Dataware
 Suite: squeeze
 Codename: squeeze
 Version: : 6.1
-Date: Wed, 04 Dec 2013 11:54:00 UTC
+Date: Wed, 04 Dec 2013 12:19:10 UTC
 Architectures: armel amd64 i386
 Components: main
 Description: Dataware resource
 MD5Sum:
- 05eba28c3953f458db162bbc38136704 12732 main/binary-armel/Packages
- 78342fd3f259eb45837873e905771bc1 4768 main/binary-armel/Packages.gz
+ 7a340ba123f1667312a10606349a10f6 12732 main/binary-armel/Packages
+ 737943cc729c99b0c6cce77a96c777d9 4766 main/binary-armel/Packages.gz
  a6828165035af16652784b0e8aad2172 132 main/binary-armel/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armel/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armel/Packages.gz
@@ -27,8 +27,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  d81df80291a50110fd122582d7137aac 133 main/source/Release
 SHA1:
- 370a0b27c64097a1ee464be046e864355e62a1c2 12732 main/binary-armel/Packages
- fc30b280d24861e807040d030dda02c11ad3aef2 4768 main/binary-armel/Packages.gz
+ 0b71e0650f5224e9ca0311fc5e90929a25c2d193 12732 main/binary-armel/Packages
+ 2b009bfb30d7b2486bd464d2a4d3ea0bf246a073 4766 main/binary-armel/Packages.gz
  948a2c641549f4ce760ce21099abaffbe30466e1 132 main/binary-armel/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armel/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armel/Packages.gz
@@ -46,8 +46,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  a6a86f63f9771a720557f164d17aafa3d1dd3a65 133 main/source/Release
 SHA256:
- 9b399559e78f7bd68d8b5a87fdbf1c290abe7da58eb773babdecb9b40ad020f1 12732 main/binary-armel/Packages
- 1a0c9d46c6d80972d977e3903f1a9fc5a744178eb3735a116886d7b703f2f890 4768 main/binary-armel/Packages.gz
+ 63f926faae86535ec4bd9057022df24bd9bac4cd5a691c374b672f555450cbcb 12732 main/binary-armel/Packages
+ 5bd76037addafcee4eb25861ed640002ce54759e9f43c2b4582ab36cbcc053e7 4766 main/binary-armel/Packages.gz
  91a8a53a73184b4da581a1bf4ff1ef2634f50f04de8140b4bc4dd1f5dc266328 132 main/binary-armel/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armel/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armel/Packages.gz
